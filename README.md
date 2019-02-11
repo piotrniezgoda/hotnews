@@ -1,6 +1,6 @@
 # hotnews App
 You can see live version on:
-[Click Me](http://www.piotrniezgoda.github.io/hotnews)
+[Click Me](https://piotrniezgoda.github.io/hotnews/)
 
 not minified code is avialible in src folder
 
