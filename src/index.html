@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hot News</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">hot news</h1>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-listItem"><a href="#" class="header__nav-listLink header__nav-listLink--active">News</a></li>
+        <li class="header__nav-listItem"><a href="./about.html" class="header__nav-listLink">About</a></li>
+      </ul>
+    </nav>
+    <div class="header__region region">
+      <p class="region__title">Region</p>
+      <div class="region-group">
+        <input class="region__radio" type="radio" id="region_US" name="region" value="us" checked/>
+        <label class="region__label" for="region_US">US</label>
+
+        <input class="region__radio" type="radio" id="region_PL" name="region" value="pl" />
+        <label class="region__label" for="region_PL">PL</label>
+
+        <input class="region__radio" type="radio" id="region_RU" name="region" value="ru" />
+        <label class="region__label" for="region_RU">RU</label>
+      </div>
+    </div>
+    <div class="header__search search">
+      <label class="search__label" for="searchInput">Search Keyword</label>
+      <input placeholder="Type Keyword" type="text" id="searchInput" class="search__input">
+      <button id="searchButton" class="search__button">Search</button>
+    </div>
+  </header>
+
+  <main id="main" class="main"></main>
+
+  <footer class="footer">
+    <p class="footer__info">Powered by <a class="footer__link" href="https://newsapi.org/">NewsAPI.org</a></p>
+    <p class="footer__info">Code&Design <a class="footer__link" href="#">Piotr Niezgoda</a></p>
+  </footer>
+
+  <div class="app-background"></div>
+  <script src="js/main-bundle.js"></script>
+</body>
+</html>

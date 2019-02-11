@@ -1,0 +1,24 @@
+.footer {
+  background: rgba(28, 28, 28, 0.95);
+  padding: 1rem 0;
+
+}
+
+.footer__info {
+  color: #fff;
+  display: block;
+  text-align: center;
+
+  &:first-child {
+    margin: 0 0 0.25rem;
+  }
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: underline;
+
+  &:hover {
+    color: $lightBlue;
+  }
+}
